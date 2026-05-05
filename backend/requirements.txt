@@ -13,7 +13,7 @@ click-plugins==1.1.1.2
 click-repl==0.3.0
 coverage==7.6.12
 cron-descriptor==1.4.5
-django==5.2.13
+django==6.0.4
 django-celery-beat==2.9.0
 django-cors-headers==4.6.0
 django-timezone-field==7.2.1
