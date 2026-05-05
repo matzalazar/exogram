@@ -23,7 +23,7 @@ feedparser==6.0.12
 filelock==3.29.0
 flatbuffers==25.12.19
 fsspec==2026.3.0
-gunicorn==23.0.0
+gunicorn==26.0.0
 hf-xet==1.4.3
 huggingface-hub==0.36.2
 idna==3.13
