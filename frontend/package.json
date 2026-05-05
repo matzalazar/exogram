@@ -20,7 +20,7 @@
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",
-    "@vitejs/plugin-vue": "^5.0.3",
+    "@vitejs/plugin-vue": "^6.0.6",
     "autoprefixer": "^10.4.17",
     "eslint": "^10.1.0",
     "eslint-plugin-security": "^4.0.0",
