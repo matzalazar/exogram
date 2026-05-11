@@ -16,7 +16,7 @@
 # Web framework
 Django>=6.0.4,<7
 djangorestframework>=3.17.1,<4
-django-cors-headers>=4.6,<5
+django-cors-headers>=4.9.0,<5
 
 # Database
 psycopg2>=2.9.12,<3
