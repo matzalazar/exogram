@@ -40,7 +40,7 @@ sentry-sdk>=2.59.0,<3
 Pillow>=12.1.1,<13
 
 # HTTP
-requests>=2.32,<3
+requests>=2.34.2,<3
 
 # ML / embeddings
 onnxruntime>=1.25.1,<2
