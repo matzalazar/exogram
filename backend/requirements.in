@@ -14,9 +14,9 @@
 #   pip-compile --dry-run requirements.in
 
 # Web framework
-Django>=6.0.4,<7
+Django>=6.0.5,<7
 djangorestframework>=3.17.1,<4
-django-cors-headers>=4.6,<5
+django-cors-headers>=4.9.0,<5
 
 # Database
 psycopg2>=2.9.12,<3
@@ -40,7 +40,7 @@ sentry-sdk>=2.59.0,<3
 Pillow>=12.1.1,<13
 
 # HTTP
-requests>=2.32,<3
+requests>=2.34.2,<3
 
 # ML / embeddings
 onnxruntime>=1.25.1,<2
