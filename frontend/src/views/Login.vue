@@ -107,7 +107,7 @@ onMounted(async () => {
 
 const handleLogin = async () => {
   if (!nickname.value || !password.value) {
-    uiStore.showError(i18n.t('login.error_empty'))
+    ui.showError(i18n.t('login.error_empty'))
     return
   }
 
@@ -116,15 +116,15 @@ const handleLogin = async () => {
     const user = await authStore.login(nickname.value, password.value)
     logger.info('Login exitoso', { user: authStore.user })
     if (user?.must_change_credentials) {
-      uiStore.showSuccess(i18n.t('login.success_cred'))
+      ui.showSuccess(i18n.t('login.success_cred'))
       router.push(localizedTo('profile'))
       return
     }
-    uiStore.showSuccess(i18n.t('login.success'))
+    ui.showSuccess(i18n.t('login.success'))
     router.push(localizedTo('dashboard'))
   } catch (err) {
     logger.error('Error durante login', err)
-    uiStore.showError(err.message || 'Error al iniciar sesión')
+    ui.showError(err.message || 'Error al iniciar sesión')
   }
 }
 </script>

@@ -6,6 +6,7 @@
         <button class="lang-toggle" @click="i18n.toggleLocale()">
           {{ i18n.t('landing.footer.lang') }}
         </button>
+        <router-link :to="localizedTo('login')" class="nav-link nav-link-enter">{{ i18n.t('nav.login') }}</router-link>
         <button class="theme-toggle" @click="ui.toggleTheme()" :title="ui.theme === 'dark' ? 'Light mode' : 'Dark mode'">
           <svg v-if="ui.theme === 'light'" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
             <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
@@ -22,7 +23,6 @@
             <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/>
           </svg>
         </button>
-        <router-link :to="localizedTo('login')" class="nav-link nav-link-enter">{{ i18n.t('nav.login') }}</router-link>
       </div>
     </nav>
 
@@ -313,6 +313,27 @@ onBeforeUnmount(() => {
 .lang-toggle:hover {
   color: var(--text-primary);
   opacity: 0.9;
+}
+
+.theme-toggle {
+  font-family: var(--font-ui);
+  color: var(--text-tertiary);
+  background: none;
+  border: none;
+  outline: none;
+  padding: 2px 6px;
+  cursor: pointer;
+  transition: color var(--transition-fast);
+  line-height: 1.4;
+  display: flex;
+  align-items: center;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.theme-toggle:hover {
+  color: var(--text-primary);
 }
 
 .page-header {

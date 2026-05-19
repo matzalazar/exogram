@@ -75,7 +75,7 @@ const statusMessage = ref('')
 const handleSubmit = async () => {
   const normalizedEmail = (email.value || '').trim()
   if (!normalizedEmail) {
-    uiStore.showError(i18n.t('forgot_password.error_email'))
+    ui.showError(i18n.t('forgot_password.error_email'))
     return
   }
 
@@ -85,7 +85,7 @@ const handleSubmit = async () => {
     const result = await authService.forgotPassword(normalizedEmail)
     statusMessage.value = result?.message || i18n.t('forgot_password.success')
   } catch (error) {
-    uiStore.showError(error.message || i18n.t('forgot_password.error_generic'))
+    ui.showError(error.message || i18n.t('forgot_password.error_generic'))
   } finally {
     isSubmitting.value = false
   }

@@ -4,6 +4,13 @@ All notable changes to this project will be documented in this file.
 
 ---
 
+## [0.1.2] — 2026-05-19
+
+### added
+- **dark mode**: a sun/moon toggle now appears on all pages — landing, philosophy, changelog, login, forgot password, and the authenticated navbar. theme preference is saved in `localStorage` and respects the system's `prefers-color-scheme` on first visit. contributed by [@imanubdesigner](https://github.com/imanubdesigner).
+
+---
+
 ## [infra] — 2026-04-23
 
 ### deploy pipeline hardening
