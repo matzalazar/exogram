@@ -57,6 +57,6 @@ tqdm==4.67.3
 typing-extensions==4.15.0
 tzdata==2026.1
 tzlocal==5.3.1
-urllib3==2.6.3
+urllib3==2.7.0
 vine==5.1.0
 wcwidth==0.6.0
