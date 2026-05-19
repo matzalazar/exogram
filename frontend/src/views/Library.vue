@@ -942,16 +942,23 @@ const formatConnectionMeta = (highlight) => {
 }
 
 .favorite-btn:hover {
-  color: #b88a32;
-  border-color: rgba(184, 138, 50, 0.35);
-  background: rgba(184, 138, 50, 0.08);
+  color: #d4a842;
+  border-color: rgba(212, 168, 66, 0.35);
+  background: rgba(212, 168, 66, 0.08);
   transform: none;
 }
 
 .favorite-btn.is-favorite {
-  color: #b88a32;
-  border-color: rgba(184, 138, 50, 0.35);
-  background: rgba(184, 138, 50, 0.08);
+  color: #d4a842;
+  border-color: rgba(212, 168, 66, 0.35);
+  background: rgba(212, 168, 66, 0.08);
+}
+
+[data-theme="dark"] .favorite-btn:hover,
+[data-theme="dark"] .favorite-btn.is-favorite {
+  color: #d4a842;
+  border-color: rgba(212, 168, 66, 0.5);
+  background: rgba(212, 168, 66, 0.15);
 }
 
 .delete-btn {
@@ -973,10 +980,16 @@ const formatConnectionMeta = (highlight) => {
 }
 
 .delete-btn:hover:not(:disabled) {
-  color: #c53030;
-  border-color: rgba(197, 48, 48, 0.35);
-  background: rgba(197, 48, 48, 0.06);
+  color: #e06060;
+  border-color: rgba(224, 96, 96, 0.35);
+  background: rgba(224, 96, 96, 0.06);
   transform: none;
+}
+
+[data-theme="dark"] .delete-btn:hover:not(:disabled) {
+  color: #e06060;
+  border-color: rgba(224, 96, 96, 0.5);
+  background: rgba(224, 96, 96, 0.15);
 }
 
 .delete-btn:disabled {

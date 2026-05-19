@@ -19,11 +19,15 @@ import Toast from './components/Toast.vue'
 import ImportModal from './components/ImportModal.vue'
 import ErrorBoundary from './components/ErrorBoundary.vue'
 import { useI18nStore } from './stores/i18n'
+import { useUIStore } from './stores/ui'
 import { getLocalizedPath } from './router/localizedRoutes'
 
 const router = useRouter()
 const route = useRoute()
 const i18n = useI18nStore()
+const ui = useUIStore()
+
+ui.initTheme()
 
 const currentLocale = () => (
   typeof i18n.locale === 'string'

@@ -5,6 +5,7 @@
  * - Modales
  * - Estados de carga
  * - Sidebar toggle
+ * - Theme (light/dark)
  */
 
 import { defineStore } from 'pinia'
@@ -17,6 +18,32 @@ export const useUIStore = defineStore('ui', () => {
   const isSidebarOpen = ref(true)
   const isProcessing = ref(false)
   const processingMessage = ref('')
+
+  // Theme
+  const theme = ref(localStorage.getItem('exogram-theme') || 'light')
+
+  const setTheme = (newTheme) => {
+    theme.value = newTheme
+    localStorage.setItem('exogram-theme', newTheme)
+    document.documentElement.setAttribute('data-theme', newTheme)
+  }
+
+  const toggleTheme = () => {
+    setTheme(theme.value === 'light' ? 'dark' : 'light')
+  }
+
+  // Initialize theme on load
+  const initTheme = () => {
+    document.documentElement.setAttribute('data-theme', theme.value)
+  }
+
+  // Watch for system preference changes if no saved preference
+  if (!localStorage.getItem('exogram-theme')) {
+    const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches
+    if (prefersDark) {
+      setTheme('dark')
+    }
+  }
 
   // Toast management
   let toastCounter = 0
@@ -130,10 +157,16 @@ export const useUIStore = defineStore('ui', () => {
     processingMessage,
     setProcessing,
 
-    // Sidebar
-    isSidebarOpen,
-    toggleSidebar,
-    openSidebar,
-    closeSidebar,
-  }
+  // Sidebar
+  isSidebarOpen,
+  toggleSidebar,
+  openSidebar,
+  closeSidebar,
+
+  // Theme
+  theme,
+  setTheme,
+  toggleTheme,
+  initTheme,
+}
 })
