@@ -46,7 +46,7 @@ redis==5.2.1
 requests==2.34.2
 scikit-learn==1.8.0
 scipy==1.17.1
-sentry-sdk==2.59.0
+sentry-sdk==2.60.0
 sgmllib3k==1.0.0
 six==1.17.0
 soupsieve==2.8.3
