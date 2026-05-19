@@ -42,7 +42,7 @@ python-crontab==3.3.0
 python-dateutil==2.9.0.post0
 python-decouple==3.8
 pyyaml==6.0.3
-redis==5.2.1
+redis==7.4.0
 requests==2.34.2
 scikit-learn==1.8.0
 scipy==1.17.1
