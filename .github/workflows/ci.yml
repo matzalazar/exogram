@@ -16,7 +16,7 @@ on:
 
 env:
   PYTHON_VERSION: '3.12'
-  NODE_VERSION: '20'
+  NODE_VERSION: '22'
 
 # Cancel in-progress runs for the same branch/PR to avoid wasting minutes.
 concurrency:
