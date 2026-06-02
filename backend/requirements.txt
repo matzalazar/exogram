@@ -117,7 +117,7 @@ python-decouple==3.8
     # via -r requirements.in
 pyyaml==6.0.3
     # via huggingface-hub
-redis==7.4.0
+redis==8.0.0
     # via -r requirements.in
 requests==2.34.2
     # via
