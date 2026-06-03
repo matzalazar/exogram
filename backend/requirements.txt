@@ -105,7 +105,7 @@ protobuf==7.34.1
     # via onnxruntime
 psycopg2==2.9.12
     # via -r requirements.in
-pyjwt==2.12.1
+pyjwt==2.13.0
     # via djangorestframework-simplejwt
 python-crontab==3.3.0
     # via django-celery-beat
