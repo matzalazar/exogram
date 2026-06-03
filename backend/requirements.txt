@@ -36,7 +36,7 @@ click-plugins==1.1.1.2
     # via celery
 click-repl==0.3.0
     # via celery
-coverage==7.14.0
+coverage==7.14.1
     # via -r requirements.in
 cron-descriptor==1.4.5
     # via django-celery-beat
@@ -127,7 +127,7 @@ scikit-learn==1.8.0
     # via -r requirements.in
 scipy==1.17.1
     # via scikit-learn
-sentry-sdk==2.60.0
+sentry-sdk==2.61.1
     # via -r requirements.in
 sgmllib3k==1.0.0
     # via feedparser
