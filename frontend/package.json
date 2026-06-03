@@ -16,7 +16,7 @@
     "pinia": "^3.0.4",
     "v-network-graph": "^0.9.22",
     "vue": "^3.5.35",
-    "vue-router": "^5.0.7"
+    "vue-router": "^5.1.0"
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",
