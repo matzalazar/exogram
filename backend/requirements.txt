@@ -80,6 +80,8 @@ joblib==1.5.3
     # via scikit-learn
 kombu==5.6.2
     # via celery
+narwhals==2.22.1
+    # via scikit-learn
 numpy==2.4.6
     # via
     #   -r requirements.in
@@ -123,7 +125,7 @@ requests==2.34.2
     # via
     #   -r requirements.in
     #   huggingface-hub
-scikit-learn==1.8.0
+scikit-learn==1.9.0
     # via -r requirements.in
 scipy==1.17.1
     # via scikit-learn
