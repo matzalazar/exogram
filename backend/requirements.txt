@@ -10,7 +10,7 @@ asgiref==3.11.1
     # via
     #   django
     #   django-cors-headers
-beautifulsoup4==4.14.3
+beautifulsoup4==4.15.0
     # via -r requirements.in
 billiard==4.2.4
     # via celery
