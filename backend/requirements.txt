@@ -40,7 +40,7 @@ coverage==7.14.1
     # via -r requirements.in
 cron-descriptor==1.4.5
     # via django-celery-beat
-django==6.0.5
+django==6.0.6
     # via
     #   -r requirements.in
     #   django-celery-beat

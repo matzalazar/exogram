@@ -14,7 +14,7 @@
 #   pip-compile --dry-run requirements.in
 
 # Web framework
-Django>=6.0.5,<7
+Django>=6.0.6,<7
 djangorestframework>=3.17.1,<4
 django-cors-headers>=4.9.0,<5
 
