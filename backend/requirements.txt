@@ -127,7 +127,7 @@ scikit-learn==1.8.0
     # via -r requirements.in
 scipy==1.17.1
     # via scikit-learn
-sentry-sdk==2.61.1
+sentry-sdk==2.62.0
     # via -r requirements.in
 sgmllib3k==1.0.0
     # via feedparser
