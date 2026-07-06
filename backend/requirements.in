@@ -37,7 +37,7 @@ python-decouple>=3.8,<4
 sentry-sdk>=2.62.0,<3
 
 # Images
-Pillow>=12.2.0,<13
+Pillow>=12.3.0,<13
 
 # HTTP
 requests>=2.34.2,<3
