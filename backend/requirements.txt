@@ -506,7 +506,6 @@ numpy==2.4.6 \
     # via
     #   -r requirements.in
     #   onnxruntime
-    #   pgvector
     #   scikit-learn
     #   scipy
 onnxruntime==1.27.0 \
@@ -543,9 +542,9 @@ packaging==26.2 \
     #   huggingface-hub
     #   kombu
     #   onnxruntime
-pgvector==0.4.2 \
-    --hash=sha256:322cac0c1dc5d41c9ecf782bd9991b7966685dee3a00bc873631391ed949513a \
-    --hash=sha256:549d45f7a18593783d5eec609ea1684a724ba8405c4cb182a0b2b08aeff04e08
+pgvector==0.5.0 \
+    --hash=sha256:07a9dcf735696879406983afc6eba9a787cef7c0cf6c367ca1a5779f036dee74 \
+    --hash=sha256:fedc9800894e6da2be51358d7b7c574bf34f247ca741a5a09513622135f5964f
     # via -r requirements.in
 pillow==12.2.0 \
     --hash=sha256:00a2865911330191c0b818c59103b58a5e697cae67042366970a6b6f1b20b7f9 \

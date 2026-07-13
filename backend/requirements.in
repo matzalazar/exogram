@@ -20,7 +20,7 @@ django-cors-headers>=4.9.0,<5
 
 # Database
 psycopg2>=2.9.12,<3
-pgvector>=0.4.2,<1
+pgvector>=0.5.0,<1
 
 # Auth
 djangorestframework-simplejwt>=5.5.1,<6
