@@ -13,7 +13,7 @@
   "dependencies": {
     "d3-force": "^3.0.0",
     "marked": "^18.0.5",
-    "pinia": "^3.0.4",
+    "pinia": "^4.0.2",
     "v-network-graph": "^0.9.22",
     "vue": "^3.5.38",
     "vue-router": "^5.1.0"
