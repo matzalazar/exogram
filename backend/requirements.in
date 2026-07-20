@@ -34,7 +34,7 @@ redis>=8.0.0,<9
 python-decouple>=3.8,<4
 
 # Monitoring
-sentry-sdk>=2.62.0,<3
+sentry-sdk>=2.66.0,<3
 
 # Images
 Pillow>=12.2.0,<13
