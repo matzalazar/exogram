@@ -24,7 +24,7 @@
     "autoprefixer": "^10.5.0",
     "eslint": "^10.5.0",
     "eslint-plugin-security": "^4.0.1",
-    "eslint-plugin-vue": "^10.9.2",
+    "eslint-plugin-vue": "^10.10.0",
     "jsdom": "^29.1.1",
     "postcss": "^8.5.15",
     "tailwindcss": "^4.3.1",
