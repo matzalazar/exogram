@@ -28,7 +28,7 @@ djangorestframework-simplejwt>=5.5.1,<6
 # Queue
 celery>=5.6.3,<6
 django-celery-beat>=2.9.0,<3
-redis>=8.0.0,<9
+redis>=8.1.0,<9
 
 # Config
 python-decouple>=3.8,<4
