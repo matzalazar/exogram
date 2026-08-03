@@ -50,7 +50,7 @@ scikit-learn>=1.9.0,<2
 
 # Parsing
 python-dateutil>=2.9.0,<3
-feedparser>=6.0.12,<7
+feedparser>=6.0.14,<7
 beautifulsoup4>=4.15.0,<5
 
 # Server
