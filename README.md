@@ -6,9 +6,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/matzalazar/exogram/actions/workflows/ci.yml">
-    <img src="https://github.com/matzalazar/exogram/actions/workflows/ci.yml/badge.svg" alt="CI" />
-  </a>
+  <img src="https://img.shields.io/badge/status-archived-lightgrey" alt="Archived" />
   <img src="https://img.shields.io/badge/python-3.12-blue" alt="Python 3.12" />
   <img src="https://img.shields.io/badge/django-5.2%20LTS-092E20" alt="Django 5.2 LTS" />
   <img src="https://img.shields.io/badge/node-20-339933" alt="Node 20" />
@@ -18,6 +16,13 @@
 </p>
 
 <p align="center">A social network for readers.</p>
+
+---
+
+> [!NOTE]
+> **Exogram is no longer running.** The hosted instance at `exogram.app` has been shut down and the repository is archived — no new issues, pull requests, or releases.
+>
+> The code stays here as a reference, and it remains fully self-hostable: everything you need is in [`docs/`](./docs/). Licensed under AGPL-3.0, so feel free to fork it and run your own.
 
 <p align="center">
   <a href="https://youtu.be/3v862T1TxE4">
@@ -61,9 +66,7 @@ Just **readers** and what they underline.
 
 ## How to join
 
-Exogram is invitation-only. To join you need someone already on the network to invite you by email, or you can sign up for the waitlist.
-
-If someone sent you an invitation, the link in the email takes you directly to the registration flow.
+The hosted network is gone, so there is nothing left to join. While it ran, Exogram was invitation-only: you got in through someone already on the network, or through the waitlist. That flow is still in the code if you run your own instance.
 
 ---
 

@@ -4,6 +4,12 @@ All notable changes to this project will be documented in this file.
 
 ---
 
+## [archived] — 2026-08-04
+
+The hosted instance at `exogram.app` was shut down and the repository archived. Removed the deploy workflow and the Dependabot configuration, and updated `README`, `SECURITY` and `CONTRIBUTING` to reflect that there is no running service. The code remains self-hostable — see [`docs/`](./docs/).
+
+---
+
 ## [0.1.2] — 2026-05-19
 
 ### added
